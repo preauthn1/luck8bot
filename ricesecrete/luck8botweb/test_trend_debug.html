@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trend Debug</title>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      console.log('========== DOM Elements Check ==========');
+      console.log('tbodyOpenCode:', document.getElementById('tbodyOpenCode'));
+      console.log('tbodyHeZhi:', document.getElementById('tbodyHeZhi'));
+      console.log('tbodyHeZhiXingTai:', document.getElementById('tbodyHeZhiXingTai'));
+      console.log('tbodyHeZhiCount:', document.getElementById('tbodyHeZhiCount'));
+      console.log('tbodyHeZhiCountXingTai:', document.getElementById('tbodyHeZhiCountXingTai'));
+    });
+  </script>
+</head>
+<body>
+  <div id="TrendTab">
+    <table>
+      <tbody id="tbodyOpenCode"></tbody>
+    </table>
+    <table>
+      <tbody id="tbodyHeZhi"></tbody>
+    </table>
+    <table>
+      <tbody id="tbodyHeZhiXingTai"></tbody>
+    </table>
+    <table>
+      <tbody id="tbodyHeZhiCount"></tbody>
+    </table>
+    <table>
+      <tbody id="tbodyHeZhiCountXingTai"></tbody>
+    </table>
+  </div>
+</body>
+</html>
